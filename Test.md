@@ -32,6 +32,10 @@ https://api.nasa.gov/planetary/sounds?q=apollo&api_key=DEMO_KEY
 
 ### Scenarios:
 
+* Testing the Api with below Test data individually
+* Testing the Api with below Test data by taking combination of two parameters
+* Testing the Api with below Test data by taking all the three combination at a time
+
   1. Query with q = Null
   2. Query with q = Meaningful String
   3. Query with q = Invalid String
@@ -53,5 +57,6 @@ https://api.nasa.gov/planetary/sounds?q=apollo&api_key=DEMO_KEY
   19. Query with api_key = Integer
   20. Query with api_key = "" or ""="" -- Sql Injection
   21. Query with api_key = 1=1 -- Sql Injection
+  
 #	AUTOMATED TESTING
 
