@@ -21,7 +21,7 @@ QUERY PARAMETERS
 Parameter |	Type | Default | Description
 --------- | ---- | ------- | ------------
 q | string | None | Search text to filter results
-limit | int	10 | number of tracks to return
+limit | int | 10 | number of tracks to return
 api_key | string | DEMO_KEY | api.nasa.gov key for expanded usage
 
 EXAMPLE 	QUERY
