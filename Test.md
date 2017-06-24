@@ -3,7 +3,7 @@ Sound exists in space. Sometimes. And NASA has released a series of space sounds
 
 As part of testing this API, Below are the scenarios
 
-## PURPOSE OF THIS DOCUMENT
+# PURPOSE OF THIS DOCUMENT
 The purpose of this document is put down scenarios to test below API
 
 https://api.nasa.gov/planetary/sounds
@@ -11,6 +11,7 @@ https://api.nasa.gov/planetary/sounds
 This document covers basic scenarios to test the above mentioned API. This Covers Manual and Automated Tests
 
 Given Information:
+
 HTTP REQUEST
 
 GET https://api.nasa.gov/planetary/sounds
@@ -25,6 +26,7 @@ api_key		string	DEMO_KEY	api.nasa.gov key for expanded usage
 EXAMPLE 	QUERY
 
 https://api.nasa.gov/planetary/sounds?q=apollo&api_key=DEMO_KEY
+
 #	MANUAL TESTING
 
 #	AUTOMATED TESTING
