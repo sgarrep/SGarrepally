@@ -1,27 +1,32 @@
-1	INTRODUCTION
-1.1	PURPOSE OF THE TEST PLAN DOCUMENT
+#	INTRODUCTION
+Sound exists in space. Sometimes. And NASA has released a series of space sounds via sound cloud. We have abstracted away some of the hassle in accessing these sounds, so that developers can play with the audio files. For example, a useful application would be an automatic filter to identify human voices in these audio files.
 
-2	FUNCTIONAL TESTING
-2.1	TEST RISKS / ISSUES
- [Describe the risks associated with product testing or provide a reference to a document location where it is stored. Also outline appropriate mitigation strategies and contingency plans.]
-2.2	ITEMS TO BE TESTED / NOT TESTED
-[Describe the items/features/functions to be tested that are within the scope of this test plan. Include a description of how they will be tested, when, by whom, and to what quality standards. Also include a description of those items agreed not to be tested.]
-Item to Test	Test Description	Test Date	Responsibility
-			
-			
-			
-2.3	TEST APPROACH(S)
-[Describe the overall testing approach to be used to test the project’s product. Provide an outline of any planned tests.]
-2.4	TEST REGULATORY / MANDATE CRITERIA
-[Describe any regulations or mandates that the system must be tested against.]
-2.5	TEST PASS / FAIL CRITERIA
-[Describe the criteria used to determine if a test item has passed or failed its test.]
-2.6	TEST ENTRY / EXIT CRITERIA
-[Describe the entry and exit criteria used to start testing and determine when to stop testing.]
-2.7	TEST DELIVERABLES
-[Describe the deliverables that will result from the testing process (documents, reports, charts, etc.).]
-2.8	TEST SUSPENSION / RESUMPTION CRITERIA
-[Describe the suspension criteria that may be used to suspend all or portions of testing. Also describe the resumption criteria that may be used to resume testing.]
-2.9	TEST ENVIRONMENTAL / STAFFING / TRAINING NEEDS
-[Describe any specific requirements needed for the testing to be performed (hardware/software, staffing, skills training, etc).)]
+As part of testing this API, Below is the PLAN
+
+1.1	PURPOSE OF THIS DOCUMENT
+The purpose of this document is put down scenarios to test below API
+
+https://api.nasa.gov/planetary/sounds
+
+This document covers basic scenarios to test the above mentioned API. This Covers Manual and Automated Tests
+
+Given Information:
+HTTP REQUEST
+
+GET https://api.nasa.gov/planetary/sounds
+
+QUERY PARAMETERS
+
+Parameter	Type	Default		Description
+q		string	None		Search text to filter results
+limit		int	10		number of tracks to return
+api_key		string	DEMO_KEY	api.nasa.gov key for expanded usage
+
+EXAMPLE 	QUERY
+
+https://api.nasa.gov/planetary/sounds?q=apollo&api_key=DEMO_KEY
+2	MANUAL TESTING
+
+3	AUTOMATED TESTING
+
 
