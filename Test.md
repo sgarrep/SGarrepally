@@ -30,5 +30,28 @@ https://api.nasa.gov/planetary/sounds?q=apollo&api_key=DEMO_KEY
 
 #	MANUAL TESTING
 
+### Scenarios:
+
+  1. Query with q = Null
+  2. Query with q = Meaningful String
+  3. Query with q = Invalid String
+  4. Query with q = Integer
+  5. Query without q(field/parameter) - String
+  6. Query without limit(field/parameter)
+  7. Query with limit - As int
+  8. Query with limit - As 0
+  9. Query with limit - As -1
+  10. Query with limit - As 1
+  11. Query with limit - As 10
+  12. Query with limit - As 100
+  13. Query with limit - As 101
+  14. Query with limit - As String
+  15. Query without api_key field/parameter
+  16. Query with api_key = DEMO_KEY
+  17. Query with api_key = Null
+  18. Query with api_key = Invalid String
+  19. Query with api_key = Integer
+  20. Query with api_key = "" or ""="" -- Sql Injection
+  21. Query with api_key = 1=1 -- Sql Injection
 #	AUTOMATED TESTING
 
