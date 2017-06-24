@@ -58,5 +58,11 @@ https://api.nasa.gov/planetary/sounds?q=apollo&api_key=DEMO_KEY
   20. Query with api_key = "" or ""="" -- Sql Injection
   21. Query with api_key = 1=1 -- Sql Injection
   
+ With all the above mentioned Test data and Test scenarios, it is expected to produce the resulsts in Positive test cases and give meaningful information as response for invalid data / scenarios.
+
+##Tests Not covered:
+
+The results obtained from the primary query are not in turn tested again.
+
 #	AUTOMATED TESTING
 
