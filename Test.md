@@ -67,7 +67,7 @@ The results obtained from the primary query are not in turn tested again.
 
 #	AUTOMATED TESTING
 
-Below are Positive and Negative test cases covered in Automation testing. Responses for each test data is captured and provided response code for the failed test case. Response code for positvive test case is captured and response is printed in the log for positive test cases.
+Below are Positive and Negative test cases covered in Automation testing. Responses for each test data is captured, only response code is logged for failed test cases. Response code and response are captured and printed in the log for positive test cases.
 
 ###  Negative Test cases:
 
