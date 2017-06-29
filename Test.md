@@ -22,7 +22,7 @@ Parameter |	Type | Default | Description
 --------- | ---- | ------- | ------------
 q | string | None | Search text to filter results
 limit | int | 10 | number of tracks to return
-api_key | string | DEMO_KEY | api.nasa.gov key for expanded usage
+#api_key | string | DEMO_KEY | api.nasa.gov key for expanded usage
 
 EXAMPLE 	QUERY
 
@@ -69,7 +69,7 @@ The results obtained from the primary query are not in turn tested again.
 
 Below are Positive and Negative test cases covered in Automation testing. Responses for each test data is captured and provided response code for the failed test case. Response code for positvive test case is captured and response is printed in the log for positive test cases.
 
-Negative Test cases:
+###  Negative Test cases:
 
 Query with q = Null
 
@@ -155,7 +155,7 @@ Test With Invalid Parameters
 
 url=https://api.nasa.gov/planetary/sounds?q=xyz&api_key=Test&limit=abc
 
-Positive Test Cases:
+### Positive Test Cases:
 
 Query without limit(field/parameter)
 
